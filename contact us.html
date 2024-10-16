@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            background-color: #ffff;
+        }
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #4f0341;
+            padding: 20px;
+            border-radius: 10px;
+            border: 5px solid #4f0341; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: border-width 0.3s ease, transform 0.3s ease; 
+        }
+        .contact-container:hover {
+            border-width: 10px; 
+            transform: scale(1.05); 
+        }
+        .logo {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+        .form-text {
+            margin-bottom: 20px;
+        }
+        .form-text textarea {
+            width: 90%;
+            height: 100px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #4f0341;
+        }
+        .confirm-button {
+            background-color: #d4d8c9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+        }
+        .confirm-button:hover {
+            background-color: #4f0341;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+        }
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #c1bfbf;
+            font-size: 30px;
+        }
+        .social-icons a:hover {
+            color: #852727;
+        }
+        h1 {
+            color: #4f0341;
+            font-family: cursive;
+            margin-top: 20px; 
+        }
+        .title-container {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .title-container img {
+            width: 40px;
+            height: 40px;
+            margin-left: 10px; 
+            margin-right: 10px; 
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="text-center">
+        <div class="title-container">
+            <h1>Contact Us</h1>
+            <img src="images/1.jpeg" alt="Icon">  
+        </div>
+
+        <div class="contact-container">
+            <img src="images/9a242dce-7a59-4371-baab-79181f7d33ae.png" alt="Logo" class="logo">
+            
+            <div class="form-text">
+                <textarea placeholder="...type here"></textarea>
+            </div>
+
+            <button class="confirm-button">Confirm</button>
+            
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
