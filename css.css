@@ -66,3 +66,19 @@
     font-weight: bold; /* Make it bold */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the badge */
 }
+.cart-buttonn {
+    background: none; /* Remove background */
+    border: none;     /* Remove border */
+    cursor: pointer;  /* Make it look clickable */
+    padding: 5px;     /* Add some padding */
+  }
+  
+  .cart-buttonn i {
+    font-size: 24px;  /* Set the size of the icon */
+    color: #000;      /* Set the color (black as an example) */
+  }
+  
+  .cart-buttonn:hover i {
+    color: #fff;   /* Change color on hover (optional) */
+  }
+  
