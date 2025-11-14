@@ -10,13 +10,14 @@
 #jj{
     background-color: #4F0341;
 }
-.btn{
+.loo{
     background-color: #fff;
 }
 
 .footer{
     background-color: #4F0341;
-    border-radius: 1.25rem;
+    border-radius: 30px;
+    margin: 20px ;
 }
 
 /* Base styles for the shopping cart button */
@@ -82,3 +83,6 @@
     color: #fff;   /* Change color on hover (optional) */
   }
   
+  body{
+    background-color: #f6f2ee;
+}
